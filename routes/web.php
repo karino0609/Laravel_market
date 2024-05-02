@@ -18,6 +18,7 @@ use App\Http\Controllers\ItemController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/', [ItemController::class, 'index'])->name('top');
 
 Route::resource('likes', LikeController::class)->only([
     'index'
