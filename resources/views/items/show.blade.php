@@ -20,7 +20,9 @@
         <dt>説明</dt>
         <dd>{{ $item->description }}</dd>
     </dl>
+    @if(Auth::id() != $item->user_id)
     <form method="get" action="{{ route('items.confirm', $item) }}">
         <input type="submit" value="購入する">
     </form>
+    @endif
 @endsection
