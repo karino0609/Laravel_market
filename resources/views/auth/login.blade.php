@@ -7,14 +7,14 @@
      @csrf
      <div>
          <label>
-             メールアドレス:　<br>
+             メールアドレス：　<br>
              <input type="email" name="email">
          </label>
      </div>
      <br>
      <div>
          <label>
-             パスワード:　<br>
+             パスワード：　<br>
              <input type="password" name="password">
          </label>
      </div>

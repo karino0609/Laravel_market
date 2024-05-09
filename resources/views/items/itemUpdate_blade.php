@@ -9,28 +9,28 @@
      @csrf
      <div>
          <label>
-             商品名:　<br>
+             商品名：　<br>
              <input type="text" name="item_name">
          </label>
      </div>
      <br>
      <div>
          <label>
-             商品説明:　<br>
+             商品説明：　<br>
              <textarea="explanation" name="explanation"></textarea>
          </label>
      </div>
      <br>
      <div>
          <label>
-             価格:　<br>
+             価格：　<br>
              <input type="price" name="price">
          </label>
      </div>
      <br>
      <div>
          <label>
-             カテゴリー:　<br>
+             カテゴリー：　<br>
              <input type="category" name="category">
          </label>
      </div>
