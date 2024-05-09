@@ -100,6 +100,8 @@ return [
         'item_category'=>'商品カテゴリー',
         'category_id'=>'カテゴリーID',
         'image'=>'写真',
+        'description'=>'商品説明',
+        'name'=> '商品名',
     ],
 
 ];

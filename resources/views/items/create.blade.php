@@ -9,25 +9,25 @@
       <h2>商品追加フォーム</h2>
       <div>
           <label>
-              商品名:<br>
+              商品名：<br>
               <input type="text" name="name"><br>
           </label>
       </div>
       <div>
           <label>
-              商品説明:<br>
+              商品説明：<br>
               <textarea name="description" cols="30" rows="10"></textarea><br>
           </label>
       </div>
       <div>
           <label>
-              価格:<br>
+              価格：<br>
               <input type="text" name="price"><br>
           </label>
       </div>
       <div>
           <label>
-              カテゴリー:<br>
+              カテゴリー：<br>
               <select name="category_id">
                   @foreach($categories as $category)
                     <option value="{{ $category->id }}">{{ $category->name }}</option>
@@ -38,7 +38,7 @@
       <br>
       <div>
         <label>
-              画像を選択: 
+              画像を選択： 
           <input type="file" name="image">
         </label>
       </div>

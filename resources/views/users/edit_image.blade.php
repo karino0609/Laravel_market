@@ -19,7 +19,7 @@
         @method('patch')
         <div>
             <label>
-                画像を選択:
+                画像を選択：
                 <input type="file" name="image">
             </label>
         </div><br>

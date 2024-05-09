@@ -11,7 +11,7 @@
     <li class="item">
         <div class="item_content">
             <div class="item_body">
-                出品者:{{ $item->user->name }}
+                出品者：{{ $item->user->name }}
                 ({{ $item->created_at }})
             </div>
             <div class="post_body_main">
