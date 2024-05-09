@@ -7,28 +7,28 @@
      @csrf
      <div>
          <label>
-             ユーザー名:　<br>
+             ユーザー名：　<br>
              <input type="text" name="name">
          </label>
      </div>
      <br>
      <div>
          <label>
-             メールアドレス:　<br>
+             メールアドレス：　<br>
              <input type="email" name="email">
          </label>
      </div>
      <br>
      <div>
          <label>
-             パスワード:　<br>
+             パスワード：　<br>
              <input type="password" name="password">
          </label>
      </div>
      <br>
      <div>
          <label>
-             パスワード（確認用）:　<br>
+             パスワード（確認用）：　<br>
              <input type="password" name="password_confirmation">
          </label>
      </div>

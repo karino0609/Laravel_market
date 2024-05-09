@@ -15,7 +15,7 @@
       <h2>現在の画像</h2>
       <div>
         <label>
-              画像を選択: 
+              画像を選択： 
           <input type="file" name="image">
         </label>
       </div>
