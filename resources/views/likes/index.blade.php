@@ -21,8 +21,8 @@
                     </a>
                      {{ $item->description }}
                    <div class="item_body_heading">
-                  商品名: {{ $item->name }} {{ $item->price }}円<br>
-                  カテゴリ: {{ $item->category->name }}
+                  商品名：{{ $item->name }} {{ $item->price }}円<br>
+                  カテゴリ：{{ $item->category->name }}
                   ({{ $item->created_at }})
                   </div> 
                   </div>
